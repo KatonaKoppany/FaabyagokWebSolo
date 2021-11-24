@@ -1,1 +1,1 @@
-# FaabyagokWebSolo
+# FaanyagokWebSolo
