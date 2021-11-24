@@ -14,7 +14,7 @@
         <nav>
             <ul class="navUl">
                 <li><a href="home.php">Home</a></li>
-                <li><a href="paint.php">Paints</a></li>
+                <li><a href="paints.php">Paints</a></li>
                 <li><a href="tools.php">Tools</a></li>
                 <li><a href="woodMetarials.php">Wood Materials</a></li>
                 <li><a href="about.php">About</a></li>
