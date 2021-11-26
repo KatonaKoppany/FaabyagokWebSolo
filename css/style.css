@@ -42,7 +42,7 @@ nav a {
 }
 
 .navBtn {
-  display: noen;
+  display: none;
   position: absolute;
   z-index: 9999;
   border: none;
