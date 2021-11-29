@@ -19,7 +19,7 @@
             <i class="fas fa-bars"></i>
         </button>
 
-        <nav id="nav" data-visibles="false">
+        <nav class="nav" data-visibles="false">
             <ul class="navUl">
                 <li><a href="home.php">Home</a></li>
                 <li><a href="paints.php">Paints</a></li>

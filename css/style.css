@@ -61,7 +61,7 @@ nav li:hover {
 }
 
 @media (max-width: 100em) {
-  #nav {
+  .nav {
     margin: 0;
     position: fixed;
     inset: 0 0 0 30%;
@@ -73,7 +73,7 @@ nav li:hover {
     transition: transform 0.3s ease-out;
   }
 
-  #nav[data-visibles='true'] {
+  .nav[data-visibles='true'] {
     transform: translateX(0%);
   }
 
@@ -82,7 +82,7 @@ nav li:hover {
   }
 
   @supports (backdrop-filter: blur(1rem)) {
-    #nav {
+    .nav {
       background: hsl(0, 0%, 100%, 0.1);
       backdrop-filter: blur(1rem);
     }

@@ -1,5 +1,5 @@
 let menuBtn = document.getElementById('navBTN');
-let nav=document.getElementById('nav');
+let nav = document.getElementsByClassName('nav')[0];
 let menuCkick = false;
 
 menuBtn.addEventListener('click', () => {
