@@ -30,6 +30,7 @@ nav ul {
 
 nav li {
   display: inline-block;
+  border-radius: 15px 0 15px 0;
   padding: 20px;
   position: relative;
   transition: 500ms ease-in-out;
@@ -57,7 +58,7 @@ nav a {
 }
 
 nav li:hover {
-  background-color: #8b8582;
+  background: #8b8582;
 }
 
 @media (max-width: 100em) {
@@ -79,6 +80,10 @@ nav li:hover {
 
   nav ul {
     flex-direction: column;
+  }
+
+  nav li:hover {
+    background: hsl(0, 0%, 0%, 0.4);
   }
 
   @supports (backdrop-filter: blur(1rem)) {
